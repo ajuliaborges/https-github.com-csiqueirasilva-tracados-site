@@ -1,9 +1,14 @@
 <?php $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_SPECIAL_CHARS); ?>
 <html>
 	<head>
+		
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/nanoscroller/jquery.nanoscroller.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 
+		<link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
 		<link href="lib/nanoscroller/jquery.nanoscroller.css" rel="stylesheet" />
 		<link href="style.css" rel="stylesheet" />
 	</head>
@@ -21,7 +26,7 @@
 						<?php include('page-right.php'); ?>
 					<?php endif; ?>
 					<div id="content-box-header" class="<?php echo $header_class; ?>">
-						<?php echo $page === 'servicos' ? 'servi&ccedil;os' : $page; ?>
+						<img src="imgs/header-titles/<?php echo $page; ?>.png" />
 					</div>
 					<div id="content-box" class="nano">
 						<div class="nano-content">
@@ -45,9 +50,9 @@
 							<a href="content.php?page=menu"><img src="<?php echo $back_image; ?>" class="back-arrow" /></a>
 						</div>
 					<?php endif; ?>
-					<a href="http://www.facebook.com/"><img alt="facebook" class="social-icon <?php echo $facebook_src; ?>" /></a>
-					<a href="http://www.pinterest.com/"><img alt="pinterest" class="social-icon <?php echo $pinterest_src; ?>" /></a>
-					<a href="http://www.instagram.com/"><img alt="instagram" class="social-icon <?php echo $instagram_src; ?>" /></a>
+					<a href="http://www.facebook.com/"><img alt="facebook" class="social-icon" src="imgs/<?php echo $facebook_src; ?>.png" /></a>
+					<a href="http://www.pinterest.com/"><img alt="pinterest" class="social-icon" src="imgs/<?php echo $pinterest_src; ?>.png" /></a>
+					<a href="http://www.instagram.com/"><img alt="instagram" class="social-icon" src="imgs/<?php echo $instagram_src; ?>.png" /></a>
 				</div>
 				<?php if ($page !== 'menu'): ?>
 				</div>

@@ -1,9 +1,9 @@
 <?php
-	$facebook_src = "facebook-pink";
-	$instagram_src = "instagram-pink";
-	$pinterest_src = "pinterest-pink";
+	$facebook_src = "facebook-blue";
+	$instagram_src = "instagram-blue";
+	$pinterest_src = "pinterest-blue";
 	
-	$header_class = "header-left";
-	$back_class = "back-right";
+	$header_class = "header-right";
+	$back_class = "back-left";
 	$back_image = "imgs/nav-icons/back-arrow-pink.png";
 ?>

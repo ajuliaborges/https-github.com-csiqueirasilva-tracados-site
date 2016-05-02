@@ -9,7 +9,7 @@
 }
 
 body {
-	font-family: 'Segoe Print Bold';
+	font-family: 'Istok Web', sans-serif;
 	background: url('imgs/fundomaior.png');
 	background-size: auto 100%;
 	background-attachment: fixed;
@@ -24,6 +24,14 @@ body {
 
 #index-img {
 	width: 75vmin;
+}
+
+#enter-page-body {
+	background: url('imgs/fundo-entrada.png');
+	background-size: auto 100%;
+	background-attachment: fixed;
+    background-position: center;
+	background-repeat: no-repeat;
 }
 
 #enter-page-div {
@@ -48,11 +56,11 @@ body {
 
 /* content */
 
-
 #content-wrapper {
 	width: 70%;
 	height: 100%;
 	margin: 0 auto;
+	padding-top: 5vh;
 	text-align: center;
 }
 
@@ -64,14 +72,16 @@ body {
 }
 
 #app-header-img {
-	width: 17vh;
+	width: 15vh;
 	padding-left: 4vh;
 }
 
 #top-wrapper {
 	width: 66vh;
 	margin: 0 auto;
+	padding-bottom: 2.5vh;
 	text-align: left;
+	z-index: -5;
 }
 
 .social-icon {
@@ -88,7 +98,7 @@ body {
 	width: 66vh;
 	height: 76vh;
 	border: 1px solid #F0F0F0;
-	background-color: rgba(240, 240, 240, 0.2);
+	background-color: rgba(240, 240, 240, 0.9);
 }
 
 #content-box {
@@ -98,7 +108,6 @@ body {
 #content-box-header {
 	width: 20vh;
 	font-size: 4vh;
-	background-size: 100% 100%;
 	color: #FFF;
 	line-height: 5vh;
 	margin-top: -2.5vh;
@@ -109,13 +118,16 @@ body {
 		1px 1px 0 #000;
 }
 
+#content-box-header img {
+	width: 100%;
+	height: 6.5%;
+}
+
 .header-left {
-	background: url('imgs/header-titles/tinta-rosa.png');
 	float: right;
 }
 
 .header-right {
-	background: url('imgs/header-titles/tinta-azul.png');
 	float: left;
 }
 
@@ -140,30 +152,6 @@ body {
 	right: 0;
 }
 
-.facebook-pink, .facebook-blue:hover {
-	content: url('imgs/facebook-pink.png');
-}
-
-.facebook-blue, .facebook-pink:hover {
-	content: url('imgs/facebook-blue.png');
-}
-
-.instagram-pink, .instagram-blue:hover {
-	content: url('imgs/instagram-pink.png');
-}
-
-.instagram-blue, .instagram-pink:hover {
-	content: url('imgs/instagram-blue.png');
-}
-
-.pinterest-pink, .pinterest-blue:hover {
-	content: url('imgs/pinterest-pink.png');
-}
-
-.pinterest-blue, .pinterest-pink:hover {
-	content: url('imgs/pinterest-blue.png');
-}
-
 /* end of content */
 
 /* menu */
@@ -174,7 +162,13 @@ body {
 	margin: 3.5vh;
 	display: inline-block;
 	border: 1px solid #F0F0F0;
-	background-color: rgba(240, 240, 240, 0.2);
+	background-color: rgba(240, 240, 240, 0.9);
+}
+
+.menu-square-icon img {
+	width: 96%;
+	height: 96%;
+	margin: 1%;
 }
 
 #menu-wrapper {
@@ -183,3 +177,154 @@ body {
 }
 
 /* end of menu */
+
+/* contato */
+
+#contato-form {
+	text-align: left;
+	padding: 3%;
+	width: 100%;
+	height: 100%;
+	font-size: 2vh;
+}
+
+#contato-submit {
+	width: 15vh;
+}
+
+#contato-form input {
+	font-size: 2vh;
+}
+
+#contato-mensagem {
+	resize: none;
+	width: 62vh;
+	font-size: 2vh;
+}
+
+.contato-submit-disabled {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+#contato-form .has-error {
+	color: #f00;
+}
+
+#contato-form .has-error .glyphicon-remove {
+	display: inline-block !important;
+}
+
+#contato-form .has-success .glyphicon-ok {
+	display: inline-block !important;
+}
+
+#contato-form .has-success {
+	color: #070;
+}
+
+/* end of contato */
+
+/* sobre */
+
+#sobre-content {
+	text-align: left;
+	padding: 3%;
+}
+
+/* end of sobre */
+
+/* servicos */
+
+#servicos-content {
+	text-align: left;
+	padding: 1%;
+}
+
+#servicos-content-l {
+	width: 29vh;
+    margin-left: 1.5vh;
+	font-size: 1.75vh;
+}
+
+.servicos-content-header {
+	font-weight: bold;
+}
+
+.servicos-description-r {
+	float: right;
+	width: 26vh;
+}
+
+#servicos-content-divulgacao {
+	width: 45vh;
+	margin: 0 auto;
+	margin-top: 10vh;
+	font-weight: bold;
+}
+
+#servicos-content-divulgacao .servicos-description-r {
+	width: 42vh;
+}
+
+.servicos-description-l {
+	float: left;
+}
+
+.servicos-div {
+	clear: both;
+}
+
+.servicos-div:not(:last-child) {
+	margin-bottom: 1vh;
+}
+
+.servicos-li {
+	width: 2.5vh;
+	height: 2.5vh;
+	display: inline-block;
+}
+
+.servicos-li:nth-child(odd) {
+    background: url('imgs/nav-icons/splash-pink.png');
+	background-size: auto 100%;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+
+.servicos-li:nth-child(even) {
+    background: url('imgs/nav-icons/splash-blue.png');
+	background-size: auto 100%;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+
+#servicos-header {
+	margin-top: -3.5vh;
+	margin-bottom: 4vh;
+}
+
+.servicos-selected {
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+#servicos-header {
+	font-size: 2vh;
+}
+
+#servicos-header a, #servicos-header a:visited, #servicos-header a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+/* end of servicos */
+
+/* galeria */
+
+#galeria-content {
+	text-align: left;
+	padding: 3%;
+}
+
+/* end of galeria */

@@ -2,7 +2,7 @@
 	<head>
 		<link href="style.css" rel="stylesheet" />
 	</head>
-	<body>
+	<body id="enter-page-body">
 		<div id="enter-page-div">
 			<div id="index-margin-top"></div>
 			<div>
