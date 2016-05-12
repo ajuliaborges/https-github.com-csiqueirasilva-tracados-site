@@ -1,7 +1,8 @@
-﻿<div id="servicos-content">
+﻿
+<?php $servicos_content_raw = filter_input(INPUT_GET, 'content', FILTER_SANITIZE_SPECIAL_CHARS); ?>
+<?php $servicos_content = ($servicos_content_raw === 'divulgacao') ? 'divulgacao' : 'criacao'; ?>
 
-	<?php $servicos_content_raw = filter_input(INPUT_GET, 'content', FILTER_SANITIZE_SPECIAL_CHARS); ?>
-	<?php $servicos_content = ($servicos_content_raw === 'divulgacao') ? 'divulgacao' : 'criacao'; ?>
+<div id="servicos-content" class="servicos-content-<?php echo $servicos_content; ?>">
 
 	<div id="servicos-header">
 		<div class="<?php if ($servicos_content === 'criacao'): ?>servicos-selected<?php endif; ?>"><a href="content.php?page=servicos&content=criacao">+criação</a></div>
@@ -82,17 +83,27 @@
 	<?php else: ?>
 
 		<div id="servicos-content-divulgacao">
-			<div class="servicos-li"></div>
-			<div class="servicos-description-r">
+
+			<div class="servicos-ul">
+				<div class="servicos-li"></div>
+			</div>
+
+			<div class="servicos-description">
 				<div>Folders, flyers, cartazes, convites, posters e outras artes para divulgação</div>
 			</div>
-			<div class="servicos-div"></div>
 
-			<div class="servicos-li"></div>
-			<div class="servicos-description-r">
+			<div class="servicos-ul">
+				<div class="servicos-li"></div>
+			</div>
+
+			<div class="servicos-description">
 				<div>Serviços de administração de redes sociais, com produção e edição de conteúdo</div>
 			</div>
-			<div class="servicos-div"></div>
+
+		</div>
+
+		<div id="servicos-content-divulgacao-img">
+			<img src="imgs/celular.png" />
 		</div>
 
 	<?php endif; ?>
