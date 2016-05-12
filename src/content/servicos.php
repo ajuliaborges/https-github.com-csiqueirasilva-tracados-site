@@ -12,47 +12,71 @@
 
 		<div id="servicos-content-l">
 
-			<div class="servicos-li"></div>
-			<div class="servicos-description-r">
+			<div class="servicos-ul">
+				<div class="servicos-li"></div>
+			</div>
+
+			<div class="servicos-description">
 				<div class="servicos-content-header">WEBDESIGN</div>
 				<div>criação do layout</div>
 				<div>programação do site</div>
 			</div>
-			<div class="servicos-div"></div>
 
-			<div class="servicos-li"></div>
-			<div class="servicos-description-r">
-				<div class="servicos-content-header">IDENTIDADE VISUAL</div>
-				<div>desenvolvimento da marca</div>
-				<div>cartão de visitas, envelopes, papel timbrado e outros</div>
+			<div class="servicos-ul">
+				<div class="servicos-li"></div>
 			</div>
-			<div class="servicos-div"></div>
 
-			<div class="servicos-li"></div>
-			<div class="servicos-description-r">
-				<div class="servicos-content-header">EDITORAÇÃO</div>
-				<div>diagramação</div>
-				<div>capa</div>
-			</div>
-			<div class="servicos-div"></div>
-
-			<div class="servicos-li"></div>
-			<div class="servicos-description-r">
+			<div class="servicos-description">
 				<div class="servicos-content-header">FOTOGRAFIA</div>
 				<div>gastronomia</div>
 				<div>produtos/still</div>
 				<div>(mini estúdio portátil)</div>
 			</div>	
-			<div class="servicos-div"></div>
 
-			<div class="servicos-li"></div>
-			<div class="servicos-description-r">
-				<div class="servicos-content-header">ILUSTRAÇÃO</div>
-				<div>personagens/mascotes</div>
-				<div>estampas</div>
+		</div>
+
+		<div id="servicos-content-r">
+
+			<div class="servicos-ul">
+				<div class="servicos-li"></div>
 			</div>
-			<div class="servicos-div"></div>
 
+			<div class="servicos-description">
+				<div class="servicos-content-header">EDITORAÇÃO</div>
+				<div>diagramação</div>
+				<div>capa</div>
+			</div>
+
+			<div class="servicos-ul">
+				<div class="servicos-li"></div>
+			</div>
+
+			<div class="servicos-description">
+				<div class="servicos-content-header">ILUSTRAÇÃO</div>
+				<div>estampas</div>
+				<div>mascotes</div>
+				<div>personagens</div>
+			</div>
+
+		</div>
+
+		<div id="servicos-content-c">
+
+			<div class="servicos-ul">
+				<div class="servicos-li"></div>
+			</div>
+
+			<div class="servicos-description">
+				<div class="servicos-content-header">IDENTIDADE VISUAL</div>
+				<div>desenvolvimento da marca</div>
+				<div>cartão de visitas, envelopes, papel timbrado e outros</div>
+			</div>
+
+		</div>
+
+		<div id="servicos-img-footer">
+			<img src="imgs/camera.png" />
+			<img src="imgs/pincel.png" />
 		</div>
 
 	<?php else: ?>

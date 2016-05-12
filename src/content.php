@@ -5,12 +5,20 @@
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/nanoscroller/jquery.nanoscroller.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-
+		
+		<script src="js/lightgallery.min.js"></script>
+		
+		<script src="lib/jquery-mousewheel/jquery-mousewheel.js"></script>
+		
 		<link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
 		
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
 		<link href="lib/nanoscroller/jquery.nanoscroller.css" rel="stylesheet" />
+		
+		<link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
+
 		<link href="style.css" rel="stylesheet" />
+		
 	</head>
 	<body>
 		<div id="content-wrapper">
