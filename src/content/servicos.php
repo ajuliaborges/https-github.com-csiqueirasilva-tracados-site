@@ -1,4 +1,3 @@
-﻿
 <?php $servicos_content_raw = filter_input(INPUT_GET, 'content', FILTER_SANITIZE_SPECIAL_CHARS); ?>
 <?php $servicos_content = ($servicos_content_raw === 'divulgacao') ? 'divulgacao' : 'criacao'; ?>
 

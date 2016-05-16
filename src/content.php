@@ -1,7 +1,10 @@
+<?php header("Content-Type: text/html; charset=utf-8"); ?>
 <?php $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_SPECIAL_CHARS); ?>
 <html>
     <head>
 
+        <meta charset="UTF-8">
+        
         <script src="lib/jquery/jquery.min.js"></script>
         <script src="lib/nanoscroller/jquery.nanoscroller.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
