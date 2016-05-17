@@ -18,8 +18,8 @@ if ($prefix !== 'outros' && $prefix !== 'criacao' && $prefix !== 'fotos') {
     <ul id="galeria-imagens" style="display: none;">
         <?php for ($i = 0; $i < count($files); $i++): ?>
             <?php if (preg_match("/" . $prefix . ".+\.png/i", $files[$i])): ?>
-                <li data-src="galeria/<?php echo $files[$i]; ?>" data-thumb="galeria/thumbnails/<?php echo $files[$i]; ?>">
-                    <img src="galeria/<?php echo $files[$i]; ?>" />
+                <li data-src="galeria/<?php echo $files[$i]; ?>" data-thumb="galeria/thumbnails-1/<?php echo $files[$i]; ?>">
+                    <img src="galeria/thumbnails-2/<?php echo $files[$i]; ?>" />
                 </li>
             <?php endif; ?>
         <?php endfor; ?>
