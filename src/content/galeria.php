@@ -28,7 +28,7 @@ if ($prefix !== 'outros' && $prefix !== 'criacao' && $prefix !== 'fotos') {
 </div>
 
 <script>
-    $(document).ready(function () {
+    $(window).load(function () {
         $('#galeria-imagens').lightSlider({
             gallery: true,
             item: 1,
