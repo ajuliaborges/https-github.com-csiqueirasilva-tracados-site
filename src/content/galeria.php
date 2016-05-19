@@ -8,9 +8,9 @@ if ($prefix !== 'outros' && $prefix !== 'criacao' && $prefix !== 'fotos') {
 ?>
 
 <div id="galeria-header">
-    <div class="<?php if ($prefix === 'criacao'): ?>galeria-selected<?php endif; ?>"><a href="content.php?page=galeria&content=criacao">+criação</a></div>
-    <div class="<?php if ($prefix === 'fotos'): ?>galeria-selected<?php endif; ?>"><a href="content.php?page=galeria&content=fotos">+fotos</a></div>
-    <div class="<?php if ($prefix === 'outros'): ?>galeria-selected<?php endif; ?>"><a href="content.php?page=galeria&content=outros">+outros</a></div>    
+    <div class="<?php if ($prefix === 'criacao'): ?>galeria-selected<?php endif; ?>"><a href="content.php?page=galeria&content=criacao">+ilustraão</a></div>
+    <div class="<?php if ($prefix === 'fotos'): ?>galeria-selected<?php endif; ?>"><a href="content.php?page=galeria&content=fotos">+fotografia</a></div>
+    <div class="<?php if ($prefix === 'outros'): ?>galeria-selected<?php endif; ?>"><a href="content.php?page=galeria&content=outros">+outros serviços</a></div>    
 </div>
 
 <div id="galeria-content">
