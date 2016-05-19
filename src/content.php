@@ -63,9 +63,9 @@
                             <a href="content.php?page=menu"><img src="<?php echo $back_image; ?>" class="back-arrow" /></a>
                         </div>
                     <?php endif; ?>
-                    <a href="http://www.facebook.com/tracadosdesign"><img alt="facebook" class="social-icon" src="imgs/<?php echo $facebook_src; ?>.png" /></a>
-                    <a href="http://www.pinterest.com/tracadosdesign"><img alt="pinterest" class="social-icon" src="imgs/<?php echo $pinterest_src; ?>.png" /></a>
-                    <a href="http://www.instagram.com/tracadosdesign"><img alt="instagram" class="social-icon" src="imgs/<?php echo $instagram_src; ?>.png" /></a>
+                    <a href="http://www.facebook.com/tracadosdesign" target="_blank"><img alt="facebook" class="social-icon" src="imgs/<?php echo $facebook_src; ?>.png" /></a>
+                    <a href="http://www.pinterest.com/tracadosdesign" target="_blank"><img alt="pinterest" class="social-icon" src="imgs/<?php echo $pinterest_src; ?>.png" /></a>
+                    <a href="http://www.instagram.com/tracadosdesign" target="_blank"><img alt="instagram" class="social-icon" src="imgs/<?php echo $instagram_src; ?>.png" /></a>
                 </div>
                 <?php if ($page !== 'menu'): ?>
                 </div>
