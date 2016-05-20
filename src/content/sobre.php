@@ -1,19 +1,25 @@
 <div id="sobre-content">
 
-	<h2>Lorem Ipsum</h2>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<h2>Nossa História</h2>
 
-	<h2>Lorem Ipsum</h2>
+	<p>A <b>Traçados</b> é uma empresa construída através de parcerias, valorizando, principalmente, a criatividade e as relações interpessoais. Uma ilustradora que se juntou com um fotógrafo e designer, que trouxe também um programador: assim foi montada nossa forte equipe. </p>
+	<p>Nossos serviços são bastante diversos para que não deixemos faltar nada aos nossos clientes, oferecendo de sessões fotográficas para seus produtos (com nosso mini estúdio portátil), criação de personagens, desenvolvimento de identidade visual, até um site super completo.</p>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Conheçam nossos trabalhos e nossos serviços. Sejam todos bem-vindos a Traçados!</p>
 
-	<h2>Lorem Ipsum</h2>
+<h2>Nossa Equipe</h2>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div id="equipe">
 
-	<h2>Lorem Ipsum</h2>
+<img src="imgs/caio.png">
+<img src="imgs/julia.png">
+<img src="imgs/felipe.png">
+</div>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3>Vamos criar juntos!</h3>
+
+
 
 </div>

@@ -231,10 +231,18 @@ body {
 /* sobre */
 
 #sobre-content {
-    text-align: left;
+    text-align: justify;
     padding: 3%;
+
 }
 
+h3 {
+    text-align: center;
+}
+
+#equipe {
+margin-left: 35px;
+}
 /* end of sobre */
 
 /* servicos */
