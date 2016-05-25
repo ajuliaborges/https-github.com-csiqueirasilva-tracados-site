@@ -89,6 +89,14 @@
 		$('#contato-email').change(checkAllFields).keyup(checkAllFields);
 		$('#contato-mensagem').change(checkAllFields).keyup(checkAllFields);
 
+		$('#contato-submit').click(function() {
+			var nome = $('#contato-nome').val();
+			var email = $('#contato-email').val();
+			var mensagem = $('#contato-mensagem').val();
+			
+			console.log(nome, email, mensagem);
+		});
+		
 	});
 
 </script>
