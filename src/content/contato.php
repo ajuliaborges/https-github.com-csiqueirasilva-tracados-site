@@ -94,7 +94,25 @@
 			var email = $('#contato-email').val();
 			var mensagem = $('#contato-mensagem').val();
 			
-			console.log(nome, email, mensagem);
+			$.ajax({
+				type: 'POST',
+				data: {
+					nome: nome,
+					email: email,
+					msg: mensagem
+				},
+				url: 'script/mail.php',
+				dataType: 'json'
+			})
+			
+			.done(function(ret) {
+				console.log(ret);
+			})
+			
+			.fail(function() {
+				alert("Erro ao enviar email! O administrador foi avisado.");
+			});
+			
 		});
 		
 	});
