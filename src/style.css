@@ -183,6 +183,10 @@ body {
 
 /* contato */
 
+.contato-submit-sending {
+	width: 20vh !important;
+}
+
 #contato-form label {
 	margin-bottom: 0.5vh;
 }

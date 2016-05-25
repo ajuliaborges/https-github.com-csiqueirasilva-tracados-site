@@ -85,6 +85,26 @@
 			}
 		}
 
+		function failEmailMessage() {
+			$('#contato-form input, #contato-form textarea').attr('disabled', false);	
+			alert("Erro ao enviar email! O administrador foi avisado.");
+		}
+		
+		function emptyForm() {
+			$('#contato-nome').val('');
+			$('#contato-email').val('');
+			$('#contato-mensagem').val('');
+
+			$('#contato-form input, #contato-form textarea').not('#contato-submit').attr('disabled', false);
+			
+			checkAllFields();
+			
+			var submitButton = $('#contato-submit');
+			submitButton[0].src = "imgs/enviar-btn.png";
+			submitButton.attr('disabled', true);
+			submitButton.addClass('contato-submit-disabled');
+		}
+		
 		$('#contato-nome').change(checkAllFields).keyup(checkAllFields);
 		$('#contato-email').change(checkAllFields).keyup(checkAllFields);
 		$('#contato-mensagem').change(checkAllFields).keyup(checkAllFields);
@@ -93,6 +113,11 @@
 			var nome = $('#contato-nome').val();
 			var email = $('#contato-email').val();
 			var mensagem = $('#contato-mensagem').val();
+			var submitButton = $('#contato-submit')[0];
+			
+			submitButton.src = "imgs/enviando-btn.png";
+			
+			$('#contato-form input, #contato-form textarea').attr('disabled', true);
 			
 			$.ajax({
 				type: 'POST',
@@ -106,13 +131,22 @@
 			})
 			
 			.done(function(ret) {
-				console.log(ret);
+				if(ret) {
+					emptyForm();
+					alert('Email enviado com sucesso!');
+				} else {
+					failEmailMessage();
+				}
 			})
 			
 			.fail(function() {
-				alert("Erro ao enviar email! O administrador foi avisado.");
-			});
+				failEmailMessage();
+			})
 			
+			.complete(function() {
+				submitButton.src = "imgs/enviar-btn.png";
+			});
+
 		});
 		
 	});
