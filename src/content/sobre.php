@@ -15,6 +15,9 @@
 <img src="imgs/caio.png">
 <img src="imgs/julia.png">
 <img src="imgs/felipe.png">
+
+
+
 </div>
 
 
