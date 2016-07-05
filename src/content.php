@@ -24,6 +24,9 @@
 
         <link href="style.css" rel="stylesheet" />
 
+        <title>TRAÇADOS - design e comunicação</title>
+
+      <link rel="icon" href="imgs/favicon.png">   
     </head>
     <body>
         <div id="content-wrapper">
