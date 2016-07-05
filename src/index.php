@@ -1,6 +1,11 @@
 <html>
 	<head>
 		<link href="style.css" rel="stylesheet" />
+
+        <title>TRAÇADOS - design e comunicação</title>
+
+        <link rel="icon" href="imgs/favicon.png">   
+
 	</head>
 	<body id="enter-page-body">
 		<div id="enter-page-div">
